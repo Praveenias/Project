@@ -34,10 +34,10 @@ def cgpa(c):
 if a == "cse":
     c = pd.read_excel(r"C:\Users\PRAVEEN\Documents\PYthon_Praveen\CSE.xlsx",sheet_name='CSE')
     cgpa(c)
-if a== "ece":
+elif a== "ece":
     c = pd.read_excel(r"C:\Users\PRAVEEN\Documents\PYthon_Praveen\CSE.xlsx",sheet_name='ECE')
     cgpa(c)
-if a=="mech":
+elif a=="mech":
     c = pd.read_excel(r"C:\Users\PRAVEEN\Documents\PYthon_Praveen\CSE.xlsx",sheet_name='MECH')
     cgpa(c)
 else:
